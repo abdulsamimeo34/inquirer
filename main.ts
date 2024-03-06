@@ -1,9 +1,23 @@
-import inquirer from 'inquirer';
+let faviourtecolor = "blue";
+console.log(faviourtecolor);
+faviourtecolor ='green';
+console.log(faviourtecolor);
 
-let answer = await inquirer.prompt({
-    name: 'age',
-    type: "number",
-    message: "Enter your age:",
+let username = "Abdul Sami";
+console.log(username);
+username = 'Rajput';
+console.log(username);
+//let firstname: string ='sindh';
+//let lastname: string ='karachi';
+//let fullname: string = firstname + ' ' + lastname;
+//console.log(fullname);
 
-});
-console.log("Inshallah, in" +(60- answer.age)+ "years you will be 60 years old.");
+let firstname: string ='Abdul';
+let lastname: string ='Rafay'; 
+let fullname: string = firstname+ '' +lastname;
+console.log(fullname);
+
+let personname: string = 'meo';
+let castename: string = 'rajput';
+let completename: string = `${personname} ${castename}`;
+console.log(completename);
